@@ -13,7 +13,7 @@ All submissions should include source code and a readme that explains how their 
 - Use Bootstrap to style the elements and make it responsive
 - Create dev and build commands and make sure your code runs!
 
-## Front-end challenge #1: Build a responsive product listing web component based on a Direct Wines Offer.
+## Front-end challenge #1: Build a product listing web component based on a Direct Wines Offer.
 
 This should outline how comfortable you are with displaying data from a REST API.
 
@@ -27,7 +27,7 @@ This should outline how comfortable you are with displaying data from a REST API
 - There will be 3 products inside of the mainItems array
 - Loop through the items and pull out the productName, numberOfBottlers and Price and display it on the page to look like the below
 
-## Front-end challenge #2: Build a ZIP code lookup field
+## Front-end challenge #2: Build a ZIP code autocomplete web component
 
 This should outline how comfortable you are with building a web component that will dynamically changed based on inputs from the user.
 
