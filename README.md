@@ -13,24 +13,30 @@ All submissions should include source code and a readme that explains how their 
 - Use Bootstrap to style the elements and make it responsive
 - Create dev and build commands and make sure your code runs!
 
-## Front-End
-
-[Front-end challenge #1 ](front-end): Build a responsive product listing web component based on a Direct Wines Offer.
+## Front-end challenge #1: Build a responsive product listing web component based on a Direct Wines Offer.
 
 This should outline how comfortable you are with displaying data from a REST API.
 
-[Product Listing - On Load](https://www.dropbox.com/s/eyszs155u6ob2ul/Screenshot%202019-05-05%2008.34.08.png?dl=0)
+### Screenshots
+
+1. [Product Listing - On Load](https://www.dropbox.com/s/eyszs155u6ob2ul/Screenshot%202019-05-05%2008.34.08.png?dl=0)
+
+### Requirements
 
 - On page load, the REST API for the offer should be called using this code "0033008".
 - There will be 3 products inside of the mainItems array
 - Loop through the items and pull out the productName, numberOfBottlers and Price and display it on the page to look like the below
 
-Front-end challenge #2 ](front-end): Build a ZIP code lookup field
+## Front-end challenge #2: Build a ZIP code lookup field
 
 This should outline how comfortable you are with building a web component that will dynamically changed based on inputs from the user.
 
-[Zip Code Lookup - On Load](https://www.dropbox.com/s/7vj7swiujvp9ize/Screenshot%202019-05-05%2008.44.57.png?dl=0)
-[Zip Code Lookup - After Lookup](https://www.dropbox.com/s/fa6fnqx9c09ixfh/Screenshot%202019-05-05%2008.46.12.png?dl=0)
+### Screenshots
+
+1. [Zip Code Lookup - On Load](https://www.dropbox.com/s/7vj7swiujvp9ize/Screenshot%202019-05-05%2008.44.57.png?dl=0)
+2. [Zip Code Lookup - After Lookup](https://www.dropbox.com/s/fa6fnqx9c09ixfh/Screenshot%202019-05-05%2008.46.12.png?dl=0)
+
+### Requirements
 
 - The city and state fields should be hidden by default
 - When the user enters their zip code, a call to the REST API should happen and pass along the zip code into the URL
