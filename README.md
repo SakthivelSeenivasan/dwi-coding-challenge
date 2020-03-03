@@ -8,18 +8,20 @@ All submissions should include source code and a readme that explains how their 
 
 ### Dev Setup
 
-- Create a local dev server using Webpack or Parcel
-- Use the latest version of React to create a standalone app
-- Use Bootstrap to style the elements and make it responsive
-- Create dev and build commands and make sure your code runs!
+- Create a local dev server using Webpack 
+- Use the latest version of React v16 (hooks are a plus)
+- Use Emotion for CSS in React Style components - https://emotion.sh/docs/styled
+- Create a basic layout that matches the landing page design included in the repo
+- Do not use Create React App (too much boilerplate)
 
 ## Front-end challenge #1: Build a product listing web component based on a Direct Wines Offer.
 
 This should outline how comfortable you are with displaying data from a REST API.
 
-### Screenshots
+### Sample Landing Page
 
-1. [Product Listing - On Load](https://www.dropbox.com/s/eyszs155u6ob2ul/Screenshot%202019-05-05%2008.34.08.png?dl=0)
+https://www.wsjwine.com/discovery-club
+- Please re-create the product listing with radio buttons
 
 ### Requirements
 
@@ -30,11 +32,6 @@ This should outline how comfortable you are with displaying data from a REST API
 ## Front-end challenge #2: Build a ZIP code autocomplete web component
 
 This should outline how comfortable you are with building a web component that will dynamically changed based on inputs from the user.
-
-### Screenshots
-
-1. [Zip Code Lookup - On Load](https://www.dropbox.com/s/7vj7swiujvp9ize/Screenshot%202019-05-05%2008.44.57.png?dl=0)
-2. [Zip Code Lookup - After Lookup](https://www.dropbox.com/s/fa6fnqx9c09ixfh/Screenshot%202019-05-05%2008.46.12.png?dl=0)
 
 ### Requirements
 
@@ -55,6 +52,3 @@ GET Request - https://www.wsjwine.com/api/offer/0033008
 
 GET Request - https://www.wsjwine.com/api/address/zipcode/12345
 
-### Sample Landing Page
-
-https://www.wsjwine.com/discovery-club
