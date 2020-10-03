@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.success__message__Content {
+  width: 400px;
+  border: 1px solid #fbeed5;
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  padding: 8px 35px 8px 14px;
+  margin: 20px 10px;
+}
+.error__message__Content {
+  clear: both;
+  width: 400px;
+  padding: 8px 35px 8px 14px;
+  margin: 20px 10px;
+  font-size: 0.9rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  border-radius: 4px;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+.Header__Logo {
+  width: 200px;
+  float: left;
+}
+.Float__Left {
+  float: left;
+}
+.Confirm__Button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #022ca2;
+  border-color: #001c6b;
+  color: #fff;
+  font-size: 18px;
+}
