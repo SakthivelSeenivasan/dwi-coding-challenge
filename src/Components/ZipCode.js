@@ -21,6 +21,10 @@ export default () => {
             .then((response) => {
               console.log(response);
               if (response.statusCode == 0) {
+                if (response.response.stateCode === 'CT') {
+                  response.response.stateCreateMsg =
+                    'Upon completion of this form, your order will be forwarded to The Wine Cellar, located in Wallingford, CT for processing and shipping.';
+                }
                 setZipDetails(response);
                 setMsg(response.response.stateCreateMsg);
               } else if (response.statusCode == 422) {

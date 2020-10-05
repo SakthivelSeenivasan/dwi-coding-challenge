@@ -16,14 +16,14 @@ export default () => {
     setItemValue(event);
   };
   if (mainItems !== '') {
-    return mainItems.map((item, key) => {
+    return mainItems.map((item, index) => {
       let Names = item.product.name;
       let splittedName = Names.split('+');
       let Name = splittedName[0].slice(0, -12);
       let Bottles = item.product.skus[0].numberOfBottles;
       let Price = item.product.skus[0].salePrice;
       return (
-        <>
+        <div key={index}>
           <label
             style={{
               marginBottom: '10px',
@@ -35,7 +35,7 @@ export default () => {
               type="radio"
               id="pro"
               name="product"
-              value={key}
+              value={index}
               onChange={(e) => handleProductChange(e.target.value)}
             />
             <span>
@@ -47,7 +47,7 @@ export default () => {
             <span> ( Hurry, left only {Bottles} Bottles )</span>
             <br />
           </label>
-        </>
+        </div>
       );
     });
   } else {

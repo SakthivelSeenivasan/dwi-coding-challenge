@@ -64,10 +64,16 @@ body {
   float: left;
 }
 .Confirm__Button {
-  margin: 10px;
-  padding: 10px;
-  background-color: #022ca2;
-  border-color: #001c6b;
   color: #fff;
-  font-size: 18px;
+  /* font-size: 18px; */
+  box-shadow: none;
+  text-shadow: none;
+  background-image: none;
+  background: #0274a9;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  border: 1px solid transparent;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
